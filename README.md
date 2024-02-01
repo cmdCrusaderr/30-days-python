@@ -1,1 +1,4 @@
 # 30-days-python
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fpython-programming-linux-wallpaper-tcgob&psig=AOvVaw3xZSgwDjMsd7V-8FMwjUzl&ust=1706897162400000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJC8_8ndioQDFQAAAAAdAAAAABAR![image](https://github.com/cmdCrusaderr/30-days-python/assets/149930189/83a8629a-6361-4b2e-b23b-683eddae63c1)
+
+# "Welcome to my 30 Days of Python repository! This is a step-by-step guide to learn the Python programming language in 30 days. Whether you're a beginner or have some experience, this repository is designed to help you build a strong foundation in Python. Each day, you'll explore a core Python topic, complete exercises, and work on projects to reinforce your learning. The aim is to make you feel comfortable with Python and confident in your ability to continue learning and building with this versatile language. Join me on this 30-day journey and let's learn Python together!"
