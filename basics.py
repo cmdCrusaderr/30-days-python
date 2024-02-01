@@ -1,7 +1,4 @@
-# a set is a collection ( kind of data structure ) which is unordered , unindexed . No duplicate values.
-basket = {'apple','orange', 'pear','banana'}
-print(basket)
-
-#checking
-'orange' in basket #true
-'crabgrass' in basket #false
+#anonymous functions
+square=lambda x:x**2
+#here x is an argument
+print(square(5))
