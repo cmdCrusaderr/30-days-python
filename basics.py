@@ -5,3 +5,11 @@ print(basket)
 #checking for the elements in set
 'orange' in basket #true
 'crabgrass' in basket #false
+
+# a dictionary is a set of key : with value pairs ( given that the keys are unique )
+dict_example={'python':5,'css':0}
+print(dict_example)
+print(dict_example['python']) #5
+print(sorted(dict_example)) #sorted alphabetically
+
+
