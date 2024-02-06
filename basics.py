@@ -12,12 +12,12 @@ print(dict_example)
 print(dict_example['python']) #5
 print(sorted(dict_example)) #sorted alphabetically
 
-functions in python
+# functions in python
 def person(name,age):
     print(name)
     print(age)
 
-arguments in python
+# arguments in python
 def sum(a,*b):
     print(a)
     print(b)
