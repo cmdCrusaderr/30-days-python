@@ -13,3 +13,6 @@ def player1_intro(name,age): #function of the guessing player
 def player2_intro(name,age):
     print(f"Hello player ,{name}")
     print(f"Age : {age}")
+
+def game_starts:
+    print()

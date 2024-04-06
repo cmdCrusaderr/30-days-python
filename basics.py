@@ -70,3 +70,5 @@ try:
    print(div)
 except :
     print("division by zero is not possible")
+
+#understanding the concept of classes and object of object oriented programming
