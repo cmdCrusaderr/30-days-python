@@ -3,6 +3,7 @@ import time
 def countdown_timer(seconds, hours, minutes):
     while seconds >= 0:
         print(f"{hours} hours, {minutes} minutes, {seconds} seconds remaining")
+        #delaying the time py
         time.sleep(1)
         seconds -= 1
         if seconds < 0:
