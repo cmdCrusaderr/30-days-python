@@ -1,23 +1,36 @@
 #writing the code to generate a password generator
 import random
 import string
-
-print("welcome to password generator")
-    #chars is used for containing all the characters
-chars = string.ascii_letters + string.digits + string.punctuation
-
-    #now asking the user to ask the user how many passwords they want
-num=int(input("Enter the number of passwords you want to generate : "))
-
-    #now asking the user how much is the length of the password :
-length=int(input("what is the length of the password : "))
-    #considering the case where 8 is the criteria :
-if length<8:
-         print("the minimum password length is 8. please re-enter again.")
-else:
-         print("Here is the list of your passwords.")
-         #now making the password:
-         for _ in range(num):
-                         password = ''.join(random.choice(chars) for _ in range(length))
-                         print(password)
-                         print("\n")
+def pass_generator(len,password[]):
+    #generating a password of length of len
+    len=int(input("enter the password : "))
+    if(len<=8)
+    {
+        print("please enter the valid password length again.")
+    }
+    else
+    {
+        #we will give the choice to the user 
+        #how many special char? 1/2
+        # Define the special characters
+        special_chars = "!@#$%^&*()_+-="
+        
+        # Ask the user how many special characters they want in their password
+        ask = int(input("How many special characters do you want in your password: 1 or 2? "))
+        
+        # Use match statement to handle user choice
+        match ask:
+            case 1:
+                # Generate a random special character
+                random_char = random.choice(special_chars)
+                print(f"Random special character: {random_char}")
+            case 2:
+                # Generate two random special characters
+                random_chars = random.choices(special_chars, k=2)
+                print(f"Random special characters: {''.join(random_chars)}")
+            case _:
+                print("Invalid choice. Please select 1 or 2.")
+                
+        password.append(rando)
+        
+    }
