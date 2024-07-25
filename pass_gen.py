@@ -4,12 +4,12 @@ import string
 def pass_generator(len,password[]):
     #generating a password of length of len
     len=int(input("enter the password : "))
-    if(len<=8)
-    {
+    if(len<=8):
+
         print("please enter the valid password length again.")
-    }
-    else
-    {
+    
+    else:
+    
         #we will give the choice to the user 
         #how many special char? 1/2
         # Define the special characters
@@ -31,6 +31,5 @@ def pass_generator(len,password[]):
             case _:
                 print("Invalid choice. Please select 1 or 2.")
                 
-        password.append(rando)
+        password.append(random_chars)
         
-    }
