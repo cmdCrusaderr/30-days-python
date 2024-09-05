@@ -1,7 +1,7 @@
 #writing the code to generate a password generator
 import random
 import string
-def pass_generator(len,password[]):
+def pass_generator( len,password[] ):
     #generating a password of length of len
     len=int(input("enter the password : "))
     if(len<=8):
